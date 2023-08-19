@@ -1,0 +1,185 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    background-image: url("images/Indian-Food-Festival-at-Melt-Cafe-Mandarin-Oriental-Singapore-Indian-Counter-Spread-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #3498db;
+    background-image: url("images/istockphoto-1312805174-170667a.jpg");
+    color: #fff;
+    padding: 8px 0;
+    color: #333;
+}
+
+.logo{
+    float: inline-end;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    color: #333;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+.Menu-item {
+    display: inline-block;
+    border: 3px solid #333;
+    width: 250px;
+    margin: 5px;
+    height: auto;
+}
+.Menu span {
+    color: var(--purple)
+}
+
+.heading h2{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.Menu-item:hover{
+    background-color: var(--purple);
+}
+
+.Menu-item i{
+    color: var(--white);
+    font-size: 4rem;
+    color: #c0392b;
+}
+.Menu-item{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 33rem;
+        flex: 1 1 33rem;
+    background-color: #f2f2f281;
+    padding: 4rem 3rem;
+    text-align: center;
+    border: 5px solid rgba(255, 255, 255, 0.947);
+    border-radius: 50;
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+.Menu-item h3{
+    font-size: 2rem;
+    color: var(--white);
+    padding: 1.5rem 0;
+    text-decoration: underline;
+    color: #c0392b;
+}
+
+.Menu-item p{
+    font-size: 1.6rem;
+    color: var(--grey);
+    line-height: 1.6;
+    color: #c0392b;
+}
+.Menu-item img{
+    width: 200px;
+    height: auto;
+}
+
+.Menu-item:hover p{
+    color: var(--white);
+}
+
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content h2 {
+    color: rgb(0, 251, 255);
+    text-shadow: 3px 3px 5px #333;
+    
+}
+.menu-content h2 {
+    color: rgb(226, 60, 60);
+    text-shadow: 3px 3px 5px #333;
+}
+.contact-content h2 {
+    color: rgb(157, 2, 113);
+    text-shadow: 3px 3px 5px #333;
+}
+
+.about-content p {
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger  ;
+    
+}
+.menu-content p {
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger  ;
+}
+.contact-content p{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger  ;
+}
+.contact-content h3{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger  ;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
